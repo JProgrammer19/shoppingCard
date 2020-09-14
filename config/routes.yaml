@@ -1,0 +1,23 @@
+new:
+    path: /article/new
+    controller: App\Controller\ListadocompraController::new
+    methods: [POST,GET]  
+
+article_show:
+    path: /article/{id}
+    controller: App\Controller\ListadocompraController::show
+
+article_delete:
+    path: /article/delete/{id}
+    controller: App\Controller\ListadocompraController::delete
+    methods: [DELETE]
+
+article_edit:
+    path: /article/edit/{id}
+    controller: App\Controller\ListadocompraController::update
+    methods: [POST,GET]
+
+#save_product:
+#    path: /saveProduct/
+#    controller: App\Controller\ListadocompraController::saveProduct
+#    methods: [POST,GET]     

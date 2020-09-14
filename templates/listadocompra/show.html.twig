@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}ShoppingCard{% endblock %}
+
+{% block body %}
+
+        <table class="table table-scriped">
+            <thead>
+                <tr>
+                    <th><h2>{{ article.title }}</h2></th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>{{ article.body }}</td>
+                    </tr>
+            </tbody>
+        </table>
+    <a href="/">Go Back</a>
+    
+{% endblock %}
