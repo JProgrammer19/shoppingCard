@@ -1,9 +1,9 @@
-# shoppingCard
+# TaskCard
 
-Demo: list of shopping made Symfony 4 and twig.
+Demo: list of tasks made Symfony 4 and twig.
 
 monolitic SW.
 
-Demo : Lista de la compra hecho con Symfony4 y twig.
+Demo : Lista tareas hecho con Symfony4 y twig.
 
 Sw Monolitico
